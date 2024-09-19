@@ -1,0 +1,28 @@
+﻿class Rectangle{
+    private int length;
+    private int width;
+    public int getLength(){
+        return length;
+    }
+     public int getWidth(){
+        return width;
+    }
+    public void setLength(int length1){
+        this.length=length1;
+        }
+    public void setWidth(int width1){
+    this.width=width1;
+    }
+}
+   public class Test{
+        public static void main(String[] args){
+            Rectangle r=new Rectangle();
+            r.setLength(15);
+            r.setWidth(10);
+            System.out.println(r.getLength());
+             System.out.println(r.getWidth());
+            
+        }
+    }
+       
+
