@@ -1,0 +1,14 @@
+﻿class Dog{
+    String name;
+    String color;
+    public Dog(String name1,String color1){
+        name=name1;
+        color=color1;
+    }
+    public static void main(String[] args ){
+        Dog d=new Dog("Teja","Brown");
+        System.out.println(d.name);
+        System.out.println(d.color);
+    }
+    
+}
